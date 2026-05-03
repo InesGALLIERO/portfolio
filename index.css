@@ -233,6 +233,7 @@ section {
 .card__cover img {
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
+    width: 100%;
 }
 
 .card:hover {
