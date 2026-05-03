@@ -215,10 +215,10 @@ section {
 
 .cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr;
-    place-items: center;
     gap: 3.75rem;
+    margin: 10px;
 }
 
 .card {
@@ -247,12 +247,11 @@ section {
 }
 
 .card__content p {
-    text-indent: 1ch;
     height: 6.25rem;
-    width: 15.625rem;
 }
 
 .cardBtn {
+    display: inline-block; /* ou block si tu veux pleine largeur */
     width: 100%;
     border-width: 0.063rem;
     border-style: solid;
@@ -260,6 +259,9 @@ section {
     background: white;
     border-radius: 0.313rem;
     padding: .5rem;
+    text-align: center;
+    text-decoration: none; /* enlève le soulignement */
+    color: black;
 }
 
 .cardBtn:hover {
