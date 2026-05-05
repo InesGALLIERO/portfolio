@@ -312,21 +312,39 @@ section {
     width: 40px;
 }
 
-/* 📱 Responsive */
+.ftr {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.ftr h2 {
+    margin-bottom: 15px;
+}
+
+.contact-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #7757ae;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-btn:hover {
+    background: #5a3f8c;
+}
+
+
+/* Responsive */
 @media (max-width: 768px) {
     .sectioncompetence {
         flex-direction: column;
     }
 }
 
-
-.ftr {
-    background-color: #262626;
-    min-height: 10vh;
-    display: grid;
-    place-items: center;
-    color: rgb(229, 229, 229);
-}
 
 /* This is a media query. It is saying that if the screen is less than 769px, then do the following. */
 @media only screen and (max-width:769px) {
