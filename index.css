@@ -294,12 +294,13 @@ section {
 /* Petit style optionnel pour lisibilité */
 .competence h2 {
     margin-bottom: 15px;
-    color: #222;
+    color: #ffffff;
 }
 
 .competence p {
     margin-bottom: 20px;
     line-height: 1.6;
+    color: #ffffff;
 }
 
 /* Logos */
