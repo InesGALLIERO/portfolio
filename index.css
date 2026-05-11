@@ -283,6 +283,14 @@ section {
     padding: 40px;
      min-height: 0vh;
 }
+.parcours{
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 40px;
+    padding: 40px;
+     min-height: 0vh;
+}
 
 /* Chaque bloc prend 50% */
 .competence > div {
@@ -340,44 +348,20 @@ section {
 }
 
 
-/* Responsive */
-@media (max-width: 768px) {
-    .sectioncompetence {
-        flex-direction: column;
-    }
-}
 
 
 /* This is a media query. It is saying that if the screen is less than 769px, then do the following. */
 @media only screen and (max-width:769px) {
 
-    .hamburger{
-        display: flex;
-    }
-
-    .hamburger.active .bar:nth-child(2){
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1){
-        transform: translateY(0.5rem) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3){
-        transform: translateY(-0.5rem) rotate(-45deg);
-    }
 
     .nav-menu {
-        position: fixed;
-        left: 0;
-        top: -100vh;
-        gap: 0;
-        flex-direction: column;
-        background-color: var(--bg-color);
-        width: 100%;
-        text-align: center;
-        transition: 0.3s;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+        position: static;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        width: auto;
+        background: transparent;
+        box-shadow: none;
     }
 
     .nav-item {
