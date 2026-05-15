@@ -249,9 +249,7 @@ section {
     border-bottom-right-radius: 12px;
 }
 
-.card__content p {
-    height: 6.25rem;
-}
+
 
 .cardBtn {
     display: inline-block; /* ou block si tu veux pleine largeur */
